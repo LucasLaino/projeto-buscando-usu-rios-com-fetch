@@ -1,7 +1,7 @@
-import {getUser} from "./src/services/user.js"
-import {getRepositories} from "./src/services/repositories.js"
-import {user} from "./src/objects/user.js"
-import { screen } from "./src/objects/screen.js"
+import {getUser} from "../services/user.js"
+import {getRepositories} from "../services/repositories.js"
+import {user} from "../objects/user.js"
+import { screen } from "../objects/screen.js"
 
 const inputSearch = document.querySelector("#input-search")
 const btnSearch = document.querySelector("#btn-search")
